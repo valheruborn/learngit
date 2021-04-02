@@ -1,0 +1,19 @@
+{
+  "name": "learngit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mdcopy": "md dist && cp testfile dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valheruborn/learngit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valheruborn/learngit/issues"
+  },
+  "homepage": "https://github.com/valheruborn/learngit#readme"
+}

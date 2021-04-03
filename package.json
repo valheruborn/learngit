@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "mdcopy": "md dist && cp testfile dist/"
+    "mdcopy": "md dist && cp testfile dist/",
+    "rmcopy": "rm rf dist"
   },
   "repository": {
     "type": "git",

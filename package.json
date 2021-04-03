@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "mdcopy": "mkdir dist && cp testfile dist/",
-    "rmcopy": "rm rf dist"
+    "rmcopy": "rm -r dist"
   },
   "repository": {
     "type": "git",

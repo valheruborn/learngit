@@ -25,16 +25,13 @@ jobs:
           FOLDER: dist
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Remove File
-        uses: actions/setup-node@v1
-        with:
-          node-version: 10.x
-      - name: npm install and build
-        run: |
-          npm install
-          npm run rmcopy
-
-
-      #   uses: JesseTG/rm@v1.0.2
+      # - name: Remove File
+      #   uses: actions/setup-node@v1
       #   with:
-      #     path: dist
+      #     node-version: 10.x
+      # - name: npm install and build
+      #   run: |
+      #     npm install
+      #     npm run rmcopy
+
+
